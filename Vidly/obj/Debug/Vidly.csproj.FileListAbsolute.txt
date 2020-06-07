@@ -105,3 +105,12 @@ C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AffIsSubscribedtoNewsletter.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType2.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipTypeNameValuesIntoDb.resources
