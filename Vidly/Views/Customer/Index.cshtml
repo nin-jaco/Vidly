@@ -1,0 +1,33 @@
+﻿@model List<Vidly.Models.Customer>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customers</h2>
+<br />
+@if (Model.Any())
+{
+    <table>
+        <thead>
+        <tr>
+            <th>Customer</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><a href="@($"/Customer/Details/{item.Id}")">@item.Name</a></td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>We don't have any customers yet.</p>
+}
+
+
