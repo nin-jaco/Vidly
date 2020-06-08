@@ -83,16 +83,6 @@ namespace Vidly.Controllers
                 dbMovie.GenreId = movie.GenreId;
             }
 
-            try
-            {
-                Context.SaveChanges();
-            }
-            catch (DbEntityValidationException e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
-
             return RedirectToAction("Index", "Movie");
         }
     }

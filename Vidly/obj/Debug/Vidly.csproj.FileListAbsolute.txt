@@ -119,3 +119,4 @@ C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateJohnsBirthdate.re
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.CreateMovieAndGenreTables.resources
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenreTable.resources
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.populateMoviesTable.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.modelchanges.resources
