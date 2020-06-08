@@ -5,3 +5,14 @@
 .vs/Vidly/v16/Server/sqlite3/storage.ide
 .vs/Vidly/v16/Server/sqlite3/storage.ide-shm
 .vs/Vidly/v16/Server/sqlite3/storage.ide-wal
+Vidly/App_Data/aspnet-Vidly-20200607080841.mdf
+Vidly/App_Data/aspnet-Vidly-20200607080841_log.ldf
+Vidly/bin/Vidly.dll
+Vidly/bin/Vidly.pdb
+Vidly/obj/Debug/Vidly.csproj.FileListAbsolute.txt
+Vidly/obj/Debug/Vidly.csproj.GenerateResource.cache
+Vidly/obj/Debug/Vidly.csprojAssemblyReference.cache
+Vidly/obj/Debug/Vidly.dll
+Vidly/obj/Debug/Vidly.Migrations.AddNullableBirthdateOntoCustomer.resources
+Vidly/obj/Debug/Vidly.Migrations.PopulateJohnsBirthdate.resources
+Vidly/obj/Debug/Vidly.pdb

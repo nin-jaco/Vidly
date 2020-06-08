@@ -114,3 +114,5 @@ C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustome
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType2.resources
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipTypeNameValuesIntoDb.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNullableBirthdateOntoCustomer.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateJohnsBirthdate.resources
