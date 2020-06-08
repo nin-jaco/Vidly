@@ -16,3 +16,5 @@ Vidly/obj/Debug/Vidly.dll
 Vidly/obj/Debug/Vidly.Migrations.AddNullableBirthdateOntoCustomer.resources
 Vidly/obj/Debug/Vidly.Migrations.PopulateJohnsBirthdate.resources
 Vidly/obj/Debug/Vidly.pdb
+Vidly/bin/Vidly.dll
+Vidly/bin/Vidly.pdb
