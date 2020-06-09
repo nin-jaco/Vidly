@@ -122,3 +122,11 @@ C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.populateMoviesTable.resou
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.modelchanges.resources
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.validations.resources
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.MovieValidations.resources
+C:\Source\Vidly\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+C:\Source\Vidly\Vidly\Vidly\bin\System.Web.Http.dll
+C:\Source\Vidly\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+C:\Source\Vidly\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+C:\Source\Vidly\Vidly\Vidly\bin\System.Web.Http.xml
+C:\Source\Vidly\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+C:\Source\Vidly\Vidly\Vidly\bin\AutoMapper.dll
+C:\Source\Vidly\Vidly\Vidly\bin\AutoMapper.xml
