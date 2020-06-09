@@ -1,4 +1,5 @@
 ﻿@using Antlr.Runtime.Tree
+@using Vidly.Models
 @model List<Vidly.Models.Customer>
 
 @{
@@ -10,12 +11,13 @@
 <br />
 @if (Model.Any())
 {
-    <table>
+    <table id="customers" class="table table-bordered table-hover">
         <thead>
-        <tr>
-            <th>Customer</th>
-            <th>Discount Rate</th>
-        </tr>
+            <tr>
+                <th>Customer</th>
+                <th>Membership Type</th>
+                <th>Delete</th>
+            </tr>
         </thead>
         <tbody>
         @foreach (var item in Model)
@@ -23,6 +25,9 @@
             <tr>
                 <td>@Html.ActionLink(item.Name, "Edit", "Customer", new { id = item.Id}, null)</td>
                 <td>@item.MembershipType.Name</td>
+                <td>
+                    <button data-customer-id="@item.Id" class="btn-link js-delete">Delete</button>
+                </td>
             </tr>
         }
         </tbody>
@@ -33,4 +38,23 @@ else
     <p>We don't have any customers yet.</p>
 }
 
+@section scripts
+{
+    <script>
+        $(document).ready(function() {
+            $("#customers .js-delete").on("click", function () {
+                var button = $(this);
+                if (confirm("Are you sure you want to delete this customer?")) {
+                    $.ajax({
+                        url: "/api/customers/" + button.attr("data-customer-id"),
+                        method: "DELETE",
+                        success: function() {
+                            button.parents("tr").remove();
+                        }
+                    });
+                };
+            });
+        });
 
+    </script>
+}
