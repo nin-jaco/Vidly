@@ -15,9 +15,13 @@ namespace Vidly.Controllers.Api
         private ApplicationDbContext Context { get; } = new ApplicationDbContext();
         
         // GET api/customers
-        public IEnumerable<CustomerDto> Get()
+        public IHttpActionResult Get()
         {
-            return Context.Customers.ToList().Select(Mapper.Map<Customer, CustomerDto>);
+            var customerDtos = Context.Customers
+                .Include("MembershipType")
+                .ToList()
+                .Select(Mapper.Map<Customer, CustomerDto>);
+            return Ok(customerDtos);
         }
 
         // GET api/customers/5
