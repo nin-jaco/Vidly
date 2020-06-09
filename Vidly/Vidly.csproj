@@ -231,6 +231,14 @@
     <Compile Include="Migrations\202006082107590_modelchanges.Designer.cs">
       <DependentUpon>202006082107590_modelchanges.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006091139534_validations.cs" />
+    <Compile Include="Migrations\202006091139534_validations.Designer.cs">
+      <DependentUpon>202006091139534_validations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006091214249_MovieValidations.cs" />
+    <Compile Include="Migrations\202006091214249_MovieValidations.Designer.cs">
+      <DependentUpon>202006091214249_MovieValidations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -368,6 +376,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006082107590_modelchanges.resx">
       <DependentUpon>202006082107590_modelchanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006091139534_validations.resx">
+      <DependentUpon>202006091139534_validations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006091214249_MovieValidations.resx">
+      <DependentUpon>202006091214249_MovieValidations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
