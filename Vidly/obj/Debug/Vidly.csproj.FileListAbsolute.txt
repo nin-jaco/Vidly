@@ -130,3 +130,5 @@ C:\Source\Vidly\Vidly\Vidly\bin\System.Web.Http.xml
 C:\Source\Vidly\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\Source\Vidly\Vidly\Vidly\bin\AutoMapper.dll
 C:\Source\Vidly\Vidly\Vidly\bin\AutoMapper.xml
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources

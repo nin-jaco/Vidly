@@ -38,11 +38,29 @@ namespace Vidly.Controllers
             return Content("id =" + id);
         }
 
-        public ActionResult Index()
-        {
-            var movies = Context.Movies.Include(p => p.Genre).ToList();
+        //public ActionResult Index()
+        //{
+        //    var movies = Context.Movies.Include(p => p.Genre).ToList();
 
-            return View(movies);
+        //    return View(movies);
+        //}
+
+        public ViewResult Index()
+        {
+            if (User.IsInRole("CanManageMovies"))
+                return View("List");
+            return View("ReadOnlyList");
+        }
+
+        [Authorize(Roles = RoleName.CanManageMovies)]
+        public ViewResult New()
+        {
+            var genres = Context.Genres.ToList();
+            var viewModel = new MovieFormViewModel
+            {
+                Genres = genres
+            };
+            return View("MovieForm", viewModel);
         }
 
         public ActionResult Details(int id)
