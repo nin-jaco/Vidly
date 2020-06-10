@@ -132,3 +132,8 @@ C:\Source\Vidly\Vidly\Vidly\bin\AutoMapper.dll
 C:\Source\Vidly\Vidly\Vidly\bin\AutoMapper.xml
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Source\Vidly\Vidly\Vidly\bin\Glimpse.Ado.dll
+C:\Source\Vidly\Vidly\Vidly\bin\Glimpse.AspNet.dll
+C:\Source\Vidly\Vidly\Vidly\bin\Glimpse.Core.dll
+C:\Source\Vidly\Vidly\Vidly\bin\Glimpse.EF6.dll
+C:\Source\Vidly\Vidly\Vidly\bin\Glimpse.Mvc5.dll

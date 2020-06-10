@@ -7,6 +7,7 @@ using Vidly.Models;
 using Vidly.ViewModels;
 using System.Data.Entity;
 using System.Data.Entity.Validation;
+using System.Runtime.Caching;
 
 namespace Vidly.Controllers
 {
@@ -47,6 +48,15 @@ namespace Vidly.Controllers
 
         public ViewResult Index()
         {
+            //performance profiling
+            /*if (MemoryCache.Default["Genres"] ==  null)
+            {
+                MemoryCache.Default["Genres"] = Context.Genres.ToList();
+            }
+
+            var genres = MemoryCache.Default["Genres"] as IEnumerable<Genre>;*/
+            //memory consumption
+            
             if (User.IsInRole("CanManageMovies"))
                 return View("List");
             return View("ReadOnlyList");
