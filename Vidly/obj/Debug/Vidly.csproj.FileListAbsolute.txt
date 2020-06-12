@@ -137,3 +137,8 @@ C:\Source\Vidly\Vidly\Vidly\bin\Glimpse.AspNet.dll
 C:\Source\Vidly\Vidly\Vidly\bin\Glimpse.Core.dll
 C:\Source\Vidly\Vidly\Vidly\bin\Glimpse.EF6.dll
 C:\Source\Vidly\Vidly\Vidly\bin\Glimpse.Mvc5.dll
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.CreateRentalTable.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.CreateRentalTables.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.CreateRentalTableExtraFields.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.CreateMovieExtraField.resources
+C:\Source\Vidly\Vidly\Vidly\obj\Debug\Vidly.Migrations.setNumberavailable.resources

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -15,10 +16,15 @@ namespace Vidly.Controllers.Api
         private ApplicationDbContext Context { get; } = new ApplicationDbContext();
         
         // GET api/customers
-        public IHttpActionResult Get()
+        public IHttpActionResult Get(string query = null)
         {
-            var customerDtos = Context.Customers
-                .Include("MembershipType")
+            var customerQuery = Context.Customers
+                .Include("MembershipType");
+
+            if (!string.IsNullOrWhiteSpace(query)) 
+                customerQuery = (DbQuery<Customer>) customerQuery.Where(p => p.Name.Contains(query));
+
+            var customerDtos = customerQuery
                 .ToList()
                 .Select(Mapper.Map<Customer, CustomerDto>);
             return Ok(customerDtos);

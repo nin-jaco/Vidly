@@ -29,5 +29,7 @@ namespace Vidly.Models
         [Display(Name = "Genre")]
         [Range(1,20)]
         public byte GenreId { get; set; }
+
+        public byte NumberAvailable { get; set; }
     }
 }
